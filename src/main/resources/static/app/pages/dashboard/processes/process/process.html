@@ -1,0 +1,145 @@
+<div layout="column" flex layout-margin>
+    <div layout="row">
+        <md-whiteframe
+                ng-style="{ 'max-width': ctrl.showLeftDetails ? '20%' : '0', width: ctrl.showLeftDetails ? '20%' : '0' }"
+                style="position: relative;" class="md-whiteframe-1dp"
+                md-colors="{'background': 'default-background-100'}" layout="column">
+            <div ng-show="ctrl.showLeftDetails" style="position: absolute;right: 0px;z-index: 9999;">
+                <md-button ng-click="ctrl.showLeftDetails = !ctrl.showLeftDetails">
+                    <md-icon md-font-set="material-icons">keyboard_arrow_left</md-icon>
+                </md-button>
+            </div>
+            <md-list flex>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Definition Version:</h3>
+                        <p>
+                            <md-select ng-model="ctrl.currentVersionID" ng-change="ctrl.versionChange()">
+                                <md-option ng-repeat="version in ctrl.versions track by version.id" ng-value="version.id">
+                                    {{version.version}}
+                                </md-option>
+                            </md-select>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Version Tag:</h3>
+                        <p>{{ctrl.processDefinition.versionTag || "null"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Definition ID:</h3>
+                        <p>{{ctrl.processDefinition.id || "-"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Definition Key:</h3>
+                        <p>{{ctrl.processDefinition.key || "-"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Definition Name:</h3>
+                        <p>{{ctrl.processDefinition.name || "-"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Tenant ID:</h3>
+                        <p>{{ctrl.processDefinition.tenantId || "null"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Deployment ID:</h3>
+                        <p>{{ctrl.processDefinition.deploymentId || "-"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Instances Running:</h3>
+                        <p>{{ctrl.processDefinition.instances || "0"}}</p>
+                    </div>
+                </md-list-item>
+            </md-list>
+        </md-whiteframe>
+        <md-whiteframe class="md-whiteframe-1dp" md-colors="{'background': 'default-background-100'}" flex
+                       layout="column" style="position: relative;">
+            <div ng-show="!ctrl.showLeftDetails" layout="row" style="position: absolute;left: 0px;z-index: 9999;">
+                <md-button ng-click="ctrl.showLeftDetails = !ctrl.showLeftDetails">
+                    <md-icon md-font-set="material-icons">keyboard_arrow_right</md-icon>
+                </md-button>
+            </div>
+            <div id="diagram-container" layout-fill>
+            </div>
+        </md-whiteframe>
+    </div>
+    <md-whiteframe class="md-whiteframe-1dp" md-colors="{'background': 'default-background-100'}" flex layout="column">
+        <div layout-fill>
+
+            <md-tabs md-dynamic-height md-border-bottom>
+                <md-tab label="process instances">
+                    <md-content class="md-padding">
+                        <div layout-fill>
+                            <md-list ng-cloak>
+                                <md-subheader>
+                                    <div flex layout layout-align="center center">
+                                        <span flex>ID</span>
+                                        <span flex>Start Time</span>
+                                        <span flex>Business Key</span>
+                                        <md-button ng-disabled="ctrl.processDefinition == null"
+                                                   ng-click="ctrl.startProcessInstance($event)">
+                                            <md-icon md-svg-src="img/svg/plus-circle.svg"></md-icon>
+                                        </md-button>
+                                    </div>
+                                </md-subheader>
+                                <md-list-item
+                                        ui-sref="home.dashboard.processes.process.instance({ instanceID : processInstance.id })"
+                                        ng-repeat="processInstance in ctrl.processInstances | filter: { endTime : null }  track by processInstance.id">
+                                    <span flex>{{processInstance.id  || "-"}}</span>
+                                    <span flex>{{processInstance.startTime  || "--:--:--"}}</span>
+                                    <span flex>{{processInstance.businessKey || "-"}}</span>
+                                    <md-button ng-click="ctrl.deleteProcessInstance(processInstance)">
+                                        <md-icon md-svg-src="img/svg/minus-circle.svg"></md-icon>
+                                    </md-button>
+                                </md-list-item>
+                            </md-list>
+                        </div>
+                    </md-content>
+                </md-tab>
+                <md-tab label="audit log">
+                    <md-content class="md-padding">
+                        <div layout-fill>
+                            <md-list ng-cloak>
+                                <md-subheader>
+                                    <div flex layout layout-align="center center">
+                                        <span flex>State</span>
+                                        <span flex>Process Instance ID</span>
+                                        <span flex>Activity</span>
+                                        <span flex>Start Time</span>
+                                        <span flex>End Time</span>
+                                        <span flex>Activity Instance ID</span>
+                                    </div>
+                                </md-subheader>
+                                <md-list-item ng-repeat="logItem in ctrl.auditlog track by logItem.id">
+						    <span flex>
+						    	<md-icon ng-if="logItem.endTime" md-svg-src="img/svg/circle-check.svg"></md-icon>
+						    	<md-icon ng-if="logItem.endTime == null"
+                                         md-svg-src="img/svg/circle-halfed.svg"></md-icon>
+						    </span>
+                                    <span flex>{{logItem.processInstanceId  || "-"}}</span>
+                                    <span flex>{{logItem.activityName  || "-"}}</span>
+                                    <span flex>{{logItem._startTime  || "--:--:--"}}</span>
+                                    <span flex>{{logItem._endTime || "-"}}</span>
+                                    <span flex>{{logItem.activityId || "-"}}</span>
+                                </md-list-item>
+                            </md-list>
+                        </div>
+                    </md-content>
+                </md-tab>
+            </md-tabs>
+
+    </md-whiteframe>
+</div>

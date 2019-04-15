@@ -1,0 +1,78 @@
+<md-dialog class="start-process-modal">
+   <form name="optionsForm" ng-cloak>
+      <md-toolbar>
+         <div class="md-toolbar-tools">
+            <h2>Create new Process Instance</h2>
+            <span flex></span>
+            <md-button class="md-icon-button" ng-click="cancel()">
+               <md-icon md-svg-src="img/svg/cross-remove-sign.svg" aria-label="Close dialog"></md-icon>
+            </md-button>
+         </div>
+      </md-toolbar>
+      <md-dialog-content>
+         <div class="md-dialog-content" layout="column">
+            <md-input-container flex>
+               <label>Business Key</label>
+               <input name="businessKey" ng-model="businessKey" type="text" md-autofocus required>
+               <div ng-messages="optionsForm.businessKey.$error">
+                  <div ng-message="required">The business key is required.</div>
+               </div>
+            </md-input-container>
+            <div layout="column">
+               <div  ng-repeat="variable in processVariables" layout="row">
+                  <md-input-container flex>
+                     <label>Name</label>
+                     <input name="variable-name-{{$index}}" ng-model="variable.name" required>
+                  </md-input-container>
+
+                  <md-input-container flex>
+                     <label>Type</label>
+                     <md-select ng-model="variable.type" ng-change="processVariableTypeChange(variable)" required>
+                        <md-option ng-repeat="type in processVariableTypes" ng-value="type">
+                           {{type}}
+                        </md-option>
+                     </md-select>
+                  </md-input-container>
+
+                  <md-input-container ng-if="!variable.type || variable.type == 'string'" flex>
+                     <label>Value</label>
+                     <input name="variable-type-{{$index}}" ng-disabled="!variable.type" ng-model="variable.value">
+                  </md-input-container>
+                  <md-input-container ng-if="variable.type == 'boolean'" flex>
+                     <label>Value</label>
+                     <md-select name="variable-type-{{$index}}" ng-model="variable.value" required>
+                        <md-option ng-value="'true'">
+                           True
+                        </md-option>
+                        <md-option ng-value="'false'">
+                           False
+                        </md-option>
+                     </md-select>
+                  </md-input-container>
+
+                  <md-input-container ng-if="variable.type == 'integer'" flex>
+                     <label>Value</label>
+                     <input name="variable-value-{{$index}}" type="number" ng-model="variable.value" required>
+                  </md-input-container>
+
+                  <md-button class="md-icon-button" ng-click="cancel()">
+                    <md-icon ng-click="removeProcessVariable($index)" aria-label="remove variable">remove_circle</md-icon>
+                  </md-button>
+               </div>
+            </div>
+            <div layout="row" >
+               <md-button ng-click="addProcessVariable($event)" class="md-raised">Add variable...</md-button>
+            </div>
+         </div>
+      </md-dialog-content>
+      <md-dialog-actions layout="row">
+         <span flex></span>
+         <md-button ng-click="cancel()">
+            Don't Create
+         </md-button>
+         <md-button ng-disabled="optionsForm.$invalid" ng-click="create()">
+            Create
+         </md-button>
+      </md-dialog-actions>
+   </form>
+</md-dialog>

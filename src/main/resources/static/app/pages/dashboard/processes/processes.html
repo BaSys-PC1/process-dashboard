@@ -1,0 +1,21 @@
+<md-whiteframe class="md-whiteframe-1dp" layout-margin md-colors="{'background': 'default-background-100'}" flex
+               layout="column">
+    <h2>Deployed</h2>
+    <md-list ng-cloak>
+        <md-subheader>
+            <div flex layout>
+                <span flex>Running Instances</span>
+                <span flex>Name</span>
+                <span flex>Key</span>
+                <span flex>Tenant ID</span>
+            </div>
+        </md-subheader>
+        <md-list-item ui-sref="home.dashboard.processes.process({ processID : processDefinition.id })"
+                      ng-repeat="processDefinition in ctrl.groupedprocessDefinitions track by processDefinition.id">
+            <span flex>{{processDefinition.instances  || "0"}}</span>
+            <span flex>{{processDefinition.name  || "-"}}</span>
+            <span flex>{{processDefinition.key  || "-"}}</span>
+            <span flex>{{processDefinition.tenantId || "-"}}</span>
+        </md-list-item>
+    </md-list>
+</md-whiteframe>

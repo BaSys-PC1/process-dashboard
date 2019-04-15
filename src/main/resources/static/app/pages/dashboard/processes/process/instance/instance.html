@@ -1,0 +1,169 @@
+<div layout="column" flex layout-margin>
+    <div layout="row">
+        <md-whiteframe
+                ng-style="{ 'max-width': ctrl.showLeftDetails ? '20%' : '0', width: ctrl.showLeftDetails ? '20%' : '0' }"
+                style="position: relative;" class="md-whiteframe-1dp"
+                md-colors="{'background': 'default-background-100'}" layout="column">
+            <div ng-show="ctrl.showLeftDetails" style="position: absolute;right: 0px;z-index: 9999;">
+                <md-button ng-click="ctrl.showLeftDetails = !ctrl.showLeftDetails">
+                    <md-icon md-font-set="material-icons">keyboard_arrow_left</md-icon>
+                </md-button>
+            </div>
+            <md-list flex>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Instance ID:</h3>
+                        <p>{{ctrl.processInstance.id || "-"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Business Key:</h3>
+                        <p>{{ctrl.processInstance.businessKey || "null"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Definition Version:</h3>
+                        <p>{{ctrl.processDefinition.version || "null"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Definition ID:</h3>
+                        <p>{{ctrl.processInstance.processDefinitionId || "-"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Definition Key:</h3>
+                        <p>{{ctrl.processInstance.processDefinitionKey || "-"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Definition Name:</h3>
+                        <p>{{ctrl.processInstance.processDefinitionName || "null"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Tenant ID:</h3>
+                        <p>{{ctrl.processInstance.tenantId || "-"}}</p>
+                    </div>
+                </md-list-item>
+                <md-list-item class="md-2-line">
+                    <div class="md-list-item-text" layout="column">
+                        <h3>Deployment ID:</h3>
+                        <p>{{ctrl.processDefinition.deploymentId || "-"}}</p>
+                    </div>
+                </md-list-item>
+            </md-list>
+        </md-whiteframe>
+        <md-whiteframe class="md-whiteframe-1dp" md-colors="{'background': 'default-background-100'}" flex
+                       layout="column" style="position: relative;">
+            <div ng-show="!ctrl.showLeftDetails" layout="row" style="position: absolute;left: 0px;z-index: 9999;">
+                <md-button ng-click="ctrl.showLeftDetails = !ctrl.showLeftDetails">
+                    <md-icon md-font-set="material-icons">keyboard_arrow_right</md-icon>
+                </md-button>
+            </div>
+            <div id="diagram-container" layout-fill>
+            </div>
+        </md-whiteframe>
+    </div>
+
+    <md-whiteframe class="md-whiteframe-1dp" md-colors="{'background': 'default-background-100'}" flex layout="column">
+        <div layout-fill>
+
+            <md-tabs md-dynamic-height md-border-bottom>
+                <md-tab label="audit log">
+                    <md-content class="md-padding">
+                        <div layout-fill>
+                            <md-list ng-cloak>
+                                <md-subheader>
+                                    <div flex layout layout-align="center center">
+                                        <span flex="5">State</span>
+                                        <span flex="25">Activity</span>
+                                        <span flex="10">Start Time</span>
+                                        <span flex="10">End Time</span>
+                                        <span flex="10">Duration</span>
+                                        <span flex="15">Reference Time (&Delta;)</span>
+                                        <span flex="25">Activity Instance ID</span>
+                                    </div>
+                                </md-subheader>
+                                <md-list-item ng-repeat="logItem in ctrl.auditlog track by logItem.id">
+						    <span flex="5">
+						    	<md-icon ng-if="logItem.endTime" md-svg-src="img/svg/circle-check.svg"></md-icon>
+						    	<md-icon ng-if="logItem.endTime == null"
+                                         md-svg-src="img/svg/circle-halfed.svg"></md-icon>
+						    </span>
+                                    <span flex="25">{{logItem.activityName  || "-"}}</span>
+                                    <span flex="10">{{logItem._startTime  || "--:--:--"}}</span>
+                                    <span flex="10">{{logItem._endTime || "-"}}</span>
+                                    <span flex=10>{{logItem._duration || "-"}}</span>
+
+                                    <span ng-if="logItem._referenceTime != null && logItem.durationInMillis != null && (logItem.durationInMillis - logItem._referenceTime) <= 0"
+                                          flex="15" class="positive-reference-time">{{logItem._referenceTime}}ms <span
+                                            ng-if="logItem._referenceTime != null">({{logItem.durationInMillis - logItem._referenceTime}}ms)</span></span>
+                                    <span ng-if="logItem._referenceTime != null && logItem.durationInMillis != null && (logItem.durationInMillis - logItem._referenceTime) > 0"
+                                          flex="15" class="negative-reference-time">{{logItem._referenceTime}}ms <span
+                                            ng-if="logItem._referenceTime != null">({{logItem.durationInMillis - logItem._referenceTime}}ms)</span></span>
+                                    <span ng-if="logItem._referenceTime == null || logItem.durationInMillis == null"
+                                          flex="15">
+						    	<span ng-if="logItem._referenceTime != null">{{logItem._referenceTime}}ms</span>
+						    	<span ng-if="logItem._referenceTime == null">-</span>
+						    	<span ng-if="logItem._referenceTime != null">(-)</span></span>
+
+                                    <span flex="25">{{logItem.activityId || "-"}}</span>
+                                </md-list-item>
+                            </md-list>
+                        </div>
+                    </md-content>
+                </md-tab>
+                <md-tab label="variables">
+                    <md-content class="md-padding">
+                        <div layout-fill>
+                            <md-list ng-cloak>
+                                <md-subheader>
+                                    <div flex layout layout-align="center center">
+                                        <span flex>Name</span>
+                                        <span flex>Value</span>
+                                        <span flex>Type</span>
+                                        <span flex>Actions</span>
+                                    </div>
+                                </md-subheader>
+                                <md-list-item ng-repeat="variableItem in ctrl.variables track by variableItem.id">
+                                    <span flex>{{variableItem.name  || "-"}}</span>
+                                    <span flex>{{variableItem.value  || "--:--:--"}}</span>
+                                    <span flex>{{variableItem.type || "-"}}</span>
+                                    <span flex>-</span>
+                                </md-list-item>
+                            </md-list>
+                        </div>
+                    </md-content>
+                </md-tab>
+                <md-tab label="incidents">
+                    <md-content class="md-padding">
+                        <div layout-fill>
+                            <md-list ng-cloak>
+                                <md-subheader>
+                                    <div flex layout layout-align="center center">
+                                        <span flex>Message</span>
+                                        <span flex="15">Start Time</span>
+                                        <span flex>Activity</span>
+                                    </div>
+                                </md-subheader>
+                                <md-list-item ng-repeat="incidentItem in ctrl.incidents track by incidentItem.id">
+                                    <span flex>{{incidentItem.incidentMessage  || "-"}}</span>
+                                    <span flex="15">{{incidentItem._startTime  || "--:--:--"}}</span>
+                                    <span flex>{{incidentItem.activity.activityName || "-"}}</span>
+                                </md-list-item>
+                            </md-list>
+                        </div>
+                    </md-content>
+                </md-tab>
+            </md-tabs>
+        </div>
+    </md-whiteframe>
+
+</div>

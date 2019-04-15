@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" class="no-js"
+	ng-app="App">
+<head th:replace="fragments/head :: head('Dashboard')"></head>
+<body>
+	<!--[if lt IE 10]>
+      <p>You are using an <strong>outdated</strong> browser. Please
+        <a href="http://browsehappy.com/">upgrade your browser</a>
+        to improve your experience.</p>
+    <![endif]-->
+
+	<main layout="row" layout-fill="">
+		<ui-view layout="row" layout-fill="">
+			<div id="preloader">
+				<div></div>
+			</div>
+		</ui-view>
+	</main>
+
+	<footer th:replace="fragments/footer :: footer"></footer>
+</body>
+</html>

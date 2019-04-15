@@ -1,0 +1,23 @@
+<md-whiteframe class="md-whiteframe-1dp" layout-margin md-colors="{'background': 'default-background-100'}" flex layout="column">
+	<h2>Deployed</h2>
+	<div flex layout="row" layout-align="space-between center">
+		<div flex layout="column" layout-margin>
+			<span>Process Definitions</span>
+			<a ui-sref="home.dashboard.processes">
+				<h3>{{ctrl.processDefinitionsCount || 0}}</h3>
+			</a>
+		</div>
+		<div flex layout="column" layout-margin>
+			<span>Decision Definitions</span>
+			<h3>{{ctrl.decisionDefinitionsCount || 0}}</h3>
+		</div>
+		<div flex layout="column"layout-margin>
+			<span>Case Definitions</span>
+			<h3>{{ctrl.caseDefinitionsCount || 0}}</h3>
+		</div>
+		<div flex layout="column"layout-margin>
+			<span>Deployments</span>
+			<h3>{{ctrl.deploymentsCount || 0}}</h3>
+		</div>
+	</div>
+</md-whiteframe>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head></head>
+
+<body class="hold-transition skin-black-light sidebar-mini">
+    <div class="wrapper">
+        <footer class="main-footer" th:fragment="footer">
+
+            <!-- WebSockets / STOMP -->
+            <script type="text/javascript" th:src="@{/webjars/sockjs-client/dist/sockjs.min.js}"></script>
+            <script type="text/javascript" th:src="@{/webjars/stompjs/lib/stomp.min.js}"></script>
+
+    		<!-- ace -->
+            <script th:src="@{/webjars/ace/src-min-noconflict/ace.js}"></script>
+			<script th:src="@{/webjars/ace/src-min-noconflict/ext-language_tools.js}"></script>
+			
+			<!-- momentjs -->
+            <script th:src="@{/webjars/momentjs/min/moment-with-locales.min.js}"></script>
+
+			<!-- sprintf -->
+            <script th:src="@{/webjars/sprintf-js/dist/sprintf.min.js}"></script>
+            
+			<!-- bpmn-js - BPMN 2.0 for the web -->
+            <script th:src="@{/webjars/bpmn-js/dist/bpmn-navigated-viewer.js}"></script>
+            
+            <!-- angular -->
+            <script th:src="@{/webjars/angular/angular.min.js}"></script>
+            <!-- angular animate -->
+            <script th:src="@{/webjars/angular-animate/angular-animate.js}"></script>
+            <!-- angular aria -->
+            <script th:src="@{/webjars/angular-aria/angular-aria.js}"></script>
+            <!-- angular messages -->
+            <script th:src="@{/webjars/angular-messages/angular-messages.js}"></script>
+            <!-- angular sanitize -->
+            <script th:src="@{/webjars/angular-sanitize/angular-sanitize.min.js}"></script>
+            <!-- angular resource -->
+            <script th:src="@{/webjars/angular-resource/angular-resource.min.js}"></script>
+            <!-- angular material -->
+            <script th:src="@{/webjars/angular-material/angular-material.min.js}"></script>
+            <!-- angular ui-router -->
+            <script th:src="@{/webjars/angular-ui-router/release/angular-ui-router.min.js}"></script>
+            <!-- angular stomp -->
+            <script th:src="@{/webjars/ng-stomp/dist/ng-stomp.min.js}"></script>
+			<!-- angular-breadcrumb -->
+            <script th:src="@{/webjars/angular-breadcrumb/dist/angular-breadcrumb.min.js}"></script>
+            <!-- angular ace -->
+            <script th:src="@{/webjars/angular-ui-ace/src/ui-ace.js}"></script>
+            
+            <script src="/app/app.js"></script>
+
+			<script src="/app/pages/pages.module.js"></script>
+			<script src="/app/pages/pages.route.js"></script>
+			
+			<script src="/app/theme/theme.module.js"></script>
+
+			<script src="/app/pages/dashboard/dashboard.module.js"></script>
+			<script src="/app/pages/dashboard/dashboard.route.js"></script>
+			<script src="/app/pages/dashboard/dashboard.controller.js"></script>
+
+        	<script src="/app/pages/dashboard/dialogs/additionalInfoDialog/additional-info-dialog.controller.js"></script>
+
+			<script src="/app/pages/dashboard/main/main.module.js"></script>
+			<script src="/app/pages/dashboard/main/main.route.js"></script>
+			<script src="/app/pages/dashboard/main/main.controller.js"></script>
+			
+			<script src="/app/pages/dashboard/processes/processes.module.js"></script>
+			<script src="/app/pages/dashboard/processes/processes.route.js"></script>
+			<script src="/app/pages/dashboard/processes/processes.controller.js"></script>
+			
+			<script src="/app/pages/dashboard/processes/process/process.module.js"></script>
+			<script src="/app/pages/dashboard/processes/process/process.route.js"></script>
+			<script src="/app/pages/dashboard/processes/process/process.controller.js"></script>
+			
+			<script src="/app/pages/dashboard/processes/process/dialogs/addProcessDialog/add-process-dialog.controller.js"></script>
+			
+			<script src="/app/pages/dashboard/processes/process/instance/instance.module.js"></script>
+			<script src="/app/pages/dashboard/processes/process/instance/instance.route.js"></script>
+			<script src="/app/pages/dashboard/processes/process/instance/instance.controller.js"></script>
+
+			<script src="/app/directives/directives.module.js"></script>
+			<script src="/app/services/services.module.js"></script>
+			<script src="/app/services/api.config.js"></script>
+			<script src="/app/services/api.provider.js"></script>
+			<script src="/app/services/camunda.service.js"></script>
+			
+        </footer>
+    </div>
+</body>
+
+</html>

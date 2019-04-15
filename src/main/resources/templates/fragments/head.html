@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head th:fragment="head(title)" profile="http://www.w3.org/2005/10/profile">
+    <meta charset="utf-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+
+    <title th:text="'BaSys 4.0 Process Dashboard | ' + ${title}">BaSys 4.0 Process Dashboard</title>
+
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"></meta>
+
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" th:href="@{/favicon.ico}"></link>
+
+    <!-- material-design-icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"></link>
+
+    <!-- angular material-->
+    <link th:href="@{/webjars/angular-material/angular-material.min.css}" rel="stylesheet"></link>
+
+	<!-- bpmn-js - BPMN 2.0 for the web -->
+    <link th:href="@{/webjars/bpmn-js/dist/assets/diagram-js.css}" rel="stylesheet"></link>
+    <link th:href="@{/webjars/bpmn-js/dist/assets/bpmn-font/css/bpmn-embedded.css}" rel="stylesheet"></link>
+    
+    <!-- theme style -->
+    <link th:href="@{/css/theme.css}" rel="stylesheet"></link>
+
+	<!-- animations -->
+	<link th:href="@{/css/animations.css}" rel="stylesheet"></link>
+	
+	<!-- bpmn -->
+	<link th:href="@{/css/bpmn.css}" rel="stylesheet"></link>
+	
+    <!-- jQuery -->
+    <script th:src="@{/webjars/jquery/2.2.4/jquery.min.js}"></script>
+    <!-- jQuery resize plugin -->
+    <script th:src="@{/webjars/jquery-resize-plugin/jquery.ba-resize.min.js}"></script>
+
+    <!-- lodash -->
+    <script th:src="@{/webjars/lodash/lodash.js}"></script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+</body>
+
+</html>

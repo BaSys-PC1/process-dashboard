@@ -1,0 +1,22 @@
+<md-content layout="row" layout-fill>
+	<div layout="column" flex>
+		
+		<md-toolbar layout="row" layout-align="center center">
+			<div class="md-toolbar-tools">
+				<md-icon md-svg-icon="img/svg/dashboard.svg" style="margin-right:14px;"></md-icon>
+				<h2 flex md-truncate><a ui-sref="home.dashboard.main">Live Process Monitoring</a></h2>
+				 <md-button ui-sref="home.dashboard.processes" aria-label="Processes">
+		         	Processes
+		         </md-button>
+                 <md-button ng-click="ctrl.showAdditionalInfo($event)" aria-label="help">
+                     <md-icon>help</md-icon>
+                 </md-button>
+			</div>
+		</md-toolbar>
+		
+		<md-content flex class="page-content">
+			<div ncy-breadcrumb></div>
+			<div ui-view="content"></div>
+		</md-content>
+	</div>
+</md-content>
