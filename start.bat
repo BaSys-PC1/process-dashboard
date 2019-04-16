@@ -1,0 +1,1 @@
+java -jar build/libs/process-dashboard-0.0.1-SNAPSHOT.jar --server.port=8000 --camunda.rest.base.url=http://lns-90165.sb.dfki.de:8080/engine-rest/engine/default

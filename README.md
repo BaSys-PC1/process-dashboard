@@ -71,3 +71,6 @@ Authors
 * **Philipp Staudt**
 * **Sönke Knoch** - Profile at [DFKI](https://www.dfki.de/web/forschung/iui/mitarbeiter/base_view?uid=sokn01)
 * **Daniel Porta** - Profile at [DFKI](https://www.dfki.de/web/forschung/iui/mitarbeiter/base_view?uid=dapo01)
+
+## Used 3rd Party Libraries and Licenses
+* see folder 3rd_party_licenses
