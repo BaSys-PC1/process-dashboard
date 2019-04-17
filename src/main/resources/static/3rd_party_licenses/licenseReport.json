@@ -1,0 +1,1137 @@
+[{
+	"project": "Ace",
+	"description": "WebJar for the ace editor",
+	"version": "07.31.2013",
+	"developers": [],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	},
+	{
+		"license": "MIT License",
+		"license_url": "http://www.opensource.org/licenses/mit-license.php"
+	}],
+	"dependency": "org.webjars:ace:07.31.2013"
+},
+{
+	"project": "Angular",
+	"description": "WebJar for angular",
+	"version": "1.6.2",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular:1.6.2"
+},
+{
+	"project": "Angular-animate",
+	"description": "WebJar for angular-animate",
+	"version": "1.6.2",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular-animate:1.6.2"
+},
+{
+	"project": "Angular-aria",
+	"description": "WebJar for angular-aria",
+	"version": "1.6.2",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular-aria:1.6.2"
+},
+{
+	"project": "Angular-breadcrumb",
+	"description": "WebJar for angular-breadcrumb",
+	"version": "0.5.0",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular-breadcrumb:0.5.0"
+},
+{
+	"project": "Angular-material",
+	"description": "WebJar for angular-material",
+	"version": "1.1.4",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular-material:1.1.4"
+},
+{
+	"project": "Angular-messages",
+	"description": "WebJar for angular-messages",
+	"version": "1.6.2",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular-messages:1.6.2"
+},
+{
+	"project": "Angular-resource",
+	"description": "WebJar for angular-resource",
+	"version": "1.6.2",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular-resource:1.6.2"
+},
+{
+	"project": "Angular-sanitize",
+	"description": "WebJar for angular-sanitize",
+	"version": "1.6.2",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular-sanitize:1.6.2"
+},
+{
+	"project": "Angular-ui-ace",
+	"description": "WebJar for angular-ui-ace",
+	"version": "0.2.3",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.npm:angular-ui-ace:0.2.3"
+},
+{
+	"project": "Angular-ui-router",
+	"description": "WebJar for angular-ui-router",
+	"version": "1.0.0-rc.1",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:angular-ui-router:1.0.0-rc.1"
+},
+{
+	"project": "AngularJS",
+	"description": "WebJar for AngularJS",
+	"version": "1.6.2",
+	"developers": ["James Ward"],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT License",
+		"license_url": "https://github.com/angular/angular.js/blob/master/LICENSE"
+	}],
+	"dependency": "org.webjars:angularjs:1.6.2"
+},
+{
+	"project": "Apache Commons Compress",
+	"description": "Apache Commons Compress software defines an API for working with\ncompression and archive formats.\nThese include: bzip2, gzip, pack200, lzma, xz, Snappy, traditional\nUnix Compress, DEFLATE and ar, cpio, jar, tar, zip, dump, 7z, arj.",
+	"version": "1.9",
+	"developers": ["Torsten Curdt",
+	"Stefan Bodewig",
+	"Sebastian Bazley",
+	"Christian Grobmeier",
+	"Julius Davies",
+	"Damjan Jovanovic",
+	"Emmanuel Bourg"],
+	"url": "http://commons.apache.org/proper/commons-compress/",
+	"year": null,
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.apache.commons:commons-compress:1.9"
+},
+{
+	"project": "Apache Groovy",
+	"description": "Groovy: A powerful, dynamic language for the JVM",
+	"version": "2.4.12",
+	"developers": ["Guillaume Laforge",
+	"bob mcwhirter",
+	"James Strachan",
+	"Joe Walnes",
+	"Chris Stevenson",
+	"Jamie McCrindle",
+	"Matt Foemmel",
+	"Alex Tkachman",
+	"Roshan Dawrani",
+	"Sam Pullara",
+	"Kasper Nielsen",
+	"Travis Kay",
+	"Zohar Melamed",
+	"John Wilson",
+	"Chris Poirier",
+	"Christiaan ten Klooster",
+	"Steve Goetze",
+	"Bing Ran",
+	"Jeremy Rayner",
+	"John Stump",
+	"Jochen Theodorou",
+	"Russel Winder",
+	"Pilho Kim",
+	"Christian Stein",
+	"Dierk Koenig",
+	"Paul King",
+	"Guillaume Alleon",
+	"Jason Dillon",
+	"Danno Ferrin",
+	"James Williams",
+	"Tim Yates",
+	"Andres Almiray",
+	"Marc Guillemot",
+	"Jim White",
+	"Peter Niederwieser",
+	"Andre Steingress",
+	"Hamlet D'Arcy",
+	"Cedric Champeau",
+	"Pascal Schumacher"],
+	"url": "http://groovy-lang.org",
+	"year": "2003",
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.codehaus.groovy:groovy:2.4.12"
+},
+{
+	"project": "Bean Validation API",
+	"description": "Bean Validation API",
+	"version": "1.1.0.Final",
+	"developers": ["Emmanuel Bernard",
+	"Emmanuel Bernard",
+	"Hardy Ferentschik",
+	"Gunnar Morling"],
+	"url": "http://beanvalidation.org",
+	"year": "2007",
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "javax.validation:validation-api:1.1.0.Final"
+},
+{
+	"project": "Bpmn-js",
+	"description": "WebJar for bpmn-js",
+	"version": "0.20.5",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "JSON",
+		"license_url": "https://spdx.org/licenses/JSON#licenseText"
+	}],
+	"dependency": "org.webjars.bower:bpmn-js:0.20.5"
+},
+{
+	"project": "ClassMate",
+	"description": "Library for introspecting types with full generic information\n        including resolving of field and method types.",
+	"version": "1.3.3",
+	"developers": ["Tatu Saloranta",
+	"Brian Langel"],
+	"url": "http://github.com/cowtowncoder/java-classmate",
+	"year": null,
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "com.fasterxml:classmate:1.3.3"
+},
+{
+	"project": "Commons Lang",
+	"description": "Commons Lang, a package of Java utility classes for the\n  classes that are in java.lang's hierarchy, or are considered to be so\n  standard as to justify existence in java.lang.",
+	"version": "3.1",
+	"developers": ["Daniel Rall",
+	"Stephen Colebourne",
+	"Henri Yandell",
+	"Steven Caswell",
+	"Robert Burrell Donkin",
+	"Gary D. Gregory",
+	"Phil Steitz",
+	"Fredrik Westermarck",
+	"James Carman",
+	"Niall Pemberton",
+	"Matt Benson",
+	"Joerg Schaible",
+	"Oliver Heger",
+	"Paul Benedict"],
+	"url": "http://commons.apache.org/lang/",
+	"year": "2001",
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.apache.commons:commons-lang3:3.1"
+},
+{
+	"project": "Debug",
+	"description": "WebJar for debug",
+	"version": "2.6.9",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.npm:debug:2.6.9"
+},
+{
+	"project": "Hibernate Validator Engine",
+	"description": "Hibernate's Bean Validation (JSR-303) reference implementation.",
+	"version": null,
+	"developers": [],
+	"url": null,
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.hibernate:hibernate-validator:5.3.5.Final"
+},
+{
+	"project": "Is-typedarray",
+	"description": "WebJar for is-typedarray",
+	"version": "1.0.0",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.npm:is-typedarray:1.0.0"
+},
+{
+	"project": "JBoss Logging 3",
+	"description": "The JBoss Logging Framework",
+	"version": "3.3.1.Final",
+	"developers": [],
+	"url": "http://www.jboss.org",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.jboss.logging:jboss-logging:3.3.1.Final"
+},
+{
+	"project": "JCL 1.2 implemented over SLF4J",
+	"description": "JCL 1.2 implemented over SLF4J",
+	"version": null,
+	"developers": [],
+	"url": "http://www.slf4j.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT License",
+		"license_url": "http://www.opensource.org/licenses/mit-license.php"
+	}],
+	"dependency": "org.slf4j:jcl-over-slf4j:1.7.25"
+},
+{
+	"project": "JUL to SLF4J bridge",
+	"description": "JUL to SLF4J bridge",
+	"version": null,
+	"developers": [],
+	"url": "http://www.slf4j.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT License",
+		"license_url": "http://www.opensource.org/licenses/mit-license.php"
+	}],
+	"dependency": "org.slf4j:jul-to-slf4j:1.7.25"
+},
+{
+	"project": "Jackson datatype: JSR310",
+	"description": "Add-on module to support JSR-310 (Java 8 Date & Time API) data types.",
+	"version": null,
+	"developers": ["Nick Williams"],
+	"url": null,
+	"year": null,
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.8.9"
+},
+{
+	"project": "Jackson-annotations",
+	"description": "Core annotations used for value types, used by Jackson data binding package.",
+	"version": "2.8.0",
+	"developers": [],
+	"url": "http://github.com/FasterXML/jackson",
+	"year": "2008",
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "com.fasterxml.jackson.core:jackson-annotations:2.8.0"
+},
+{
+	"project": "Jackson-core",
+	"description": "Core Jackson abstractions, basic JSON streaming API implementation",
+	"version": "2.8.9",
+	"developers": [],
+	"url": "https://github.com/FasterXML/jackson-core",
+	"year": "2008",
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "com.fasterxml.jackson.core:jackson-core:2.8.9"
+},
+{
+	"project": "Jackson-databind",
+	"description": "General data-binding functionality for Jackson: works on core streaming API",
+	"version": "2.8.9",
+	"developers": [],
+	"url": "http://github.com/FasterXML/jackson",
+	"year": "2008",
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "com.fasterxml.jackson.core:jackson-databind:2.8.9"
+},
+{
+	"project": "Javassist",
+	"description": "Javassist (JAVA programming ASSISTant) makes Java bytecode manipulation\n    simple.  It is a class library for editing bytecodes in Java.",
+	"version": "3.21.0-GA",
+	"developers": ["Shigeru Chiba",
+	"Andrew Dinn",
+	"Kabir Khan",
+	"Scott Marlow"],
+	"url": "http://www.javassist.org/",
+	"year": null,
+	"licenses": [{
+		"license": "MPL 1.1",
+		"license_url": "http://www.mozilla.org/MPL/MPL-1.1.html"
+	},
+	{
+		"license": "LGPL 2.1",
+		"license_url": "http://www.gnu.org/licenses/lgpl-2.1.html"
+	},
+	{
+		"license": "Apache License 2.0",
+		"license_url": "http://www.apache.org/licenses/"
+	}],
+	"dependency": "org.javassist:javassist:3.21.0-GA"
+},
+{
+	"project": "Jquery",
+	"description": "WebJar for jQuery",
+	"version": "2.2.4",
+	"developers": ["James Ward"],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT License",
+		"license_url": "https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt"
+	}],
+	"dependency": "org.webjars:jquery:2.2.4"
+},
+{
+	"project": "Jquery-resize-plugin",
+	"description": "WebJar for jquery-resize-plugin",
+	"version": "1.1",
+	"developers": ["James Ward"],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "GPL v2",
+		"license_url": "https://github.com/cowboy/jquery-resize/blob/master/LICENSE-GPL"
+	},
+	{
+		"license": "MIT",
+		"license_url": "https://github.com/cowboy/jquery-resize/blob/master/LICENSE-MIT"
+	}],
+	"dependency": "org.webjars:jquery-resize-plugin:1.1"
+},
+{
+	"project": "Lodash",
+	"description": "WebJar for lodash",
+	"version": "4.17.10",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.npm:lodash:4.17.10"
+},
+{
+	"project": "Log4j Implemented Over SLF4J",
+	"description": "Log4j implemented over SLF4J",
+	"version": null,
+	"developers": [],
+	"url": "http://www.slf4j.org",
+	"year": null,
+	"licenses": [{
+		"license": "Apache Software Licenses",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.slf4j:log4j-over-slf4j:1.7.25"
+},
+{
+	"project": "Logback Classic Module",
+	"description": "logback-classic module",
+	"version": null,
+	"developers": [],
+	"url": null,
+	"year": null,
+	"licenses": [{
+		"license": "Eclipse Public License - v 1.0",
+		"license_url": "http://www.eclipse.org/legal/epl-v10.html"
+	},
+	{
+		"license": "GNU Lesser General Public License",
+		"license_url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+	}],
+	"dependency": "ch.qos.logback:logback-classic:1.1.11"
+},
+{
+	"project": "Logback Core Module",
+	"description": "logback-core module",
+	"version": null,
+	"developers": [],
+	"url": null,
+	"year": null,
+	"licenses": [{
+		"license": "Eclipse Public License - v 1.0",
+		"license_url": "http://www.eclipse.org/legal/epl-v10.html"
+	},
+	{
+		"license": "GNU Lesser General Public License",
+		"license_url": "http://www.gnu.org/licenses/old-licenses/lgpl-2.1.html"
+	}],
+	"dependency": "ch.qos.logback:logback-core:1.1.11"
+},
+{
+	"project": "Material-design-icons",
+	"description": "WebJar for material-design-icons",
+	"version": "3.0.1",
+	"developers": ["Mandar Kawtakwar"],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "CC-BY 4.0",
+		"license_url": "https://github.com/google/material-design-icons/blob/master/LICENSE"
+	}],
+	"dependency": "org.webjars:material-design-icons:3.0.1"
+},
+{
+	"project": "Moment.js",
+	"description": "WebJar for Moment.js",
+	"version": "2.18.1",
+	"developers": ["James Ward"],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT License",
+		"license_url": "http://opensource.org/licenses/MIT"
+	}],
+	"dependency": "org.webjars:momentjs:2.18.1"
+},
+{
+	"project": "Ms",
+	"description": "WebJar for ms",
+	"version": "2.0.0",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.npm:ms:2.0.0"
+},
+{
+	"project": "Nan",
+	"description": "WebJar for nan",
+	"version": "2.13.2",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.npm:nan:2.13.2"
+},
+{
+	"project": "Ng-stomp",
+	"description": "WebJar for ng-stomp",
+	"version": "0.3.0",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:ng-stomp:0.3.0"
+},
+{
+	"project": "OGNL - Object Graph Navigation Library",
+	"description": "OGNL - Object Graph Navigation Library",
+	"version": "3.0.8",
+	"developers": [""],
+	"url": "http://ognl.org",
+	"year": "1997",
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "ognl:ognl:3.0.8"
+},
+{
+	"project": "Org.eclipse.paho.client.mqttv3",
+	"description": null,
+	"version": null,
+	"developers": [],
+	"url": null,
+	"year": null,
+	"licenses": [{
+		"license": "Eclipse Public License - Version 1.0",
+		"license_url": "http://www.eclipse.org/org/documents/epl-v10.php"
+	}],
+	"dependency": "org.eclipse.paho:org.eclipse.paho.client.mqttv3:1.1.1"
+},
+{
+	"project": "SLF4J API Module",
+	"description": "The slf4j API",
+	"version": null,
+	"developers": [],
+	"url": "http://www.slf4j.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT License",
+		"license_url": "http://www.opensource.org/licenses/mit-license.php"
+	}],
+	"dependency": "org.slf4j:slf4j-api:1.7.25"
+},
+{
+	"project": "SnakeYAML",
+	"description": "YAML 1.1 parser and emitter for Java",
+	"version": "1.17",
+	"developers": ["Andrey Somov",
+	"Alexander Maslov",
+	"Jordan Angold"],
+	"url": "http://www.snakeyaml.org",
+	"year": "2008",
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.yaml:snakeyaml:1.17"
+},
+{
+	"project": "SockJS-client",
+	"description": "WebJar for SockJS-client",
+	"version": "1.1.1",
+	"developers": ["James Ward"],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://github.com/sockjs/sockjs-client/blob/master/LICENSE-MIT-SockJS"
+	}],
+	"dependency": "org.webjars:sockjs-client:1.1.1"
+},
+{
+	"project": "Sockjs-client",
+	"description": "WebJar for sockjs-client",
+	"version": "1.1.1",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:sockjs-client:1.1.1"
+},
+{
+	"project": "Spring AOP",
+	"description": "Spring AOP",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-aop:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Beans",
+	"description": "Spring Beans",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-beans:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Boot",
+	"description": "Spring Boot",
+	"version": null,
+	"developers": [],
+	"url": "http://projects.spring.io/spring-boot/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework.boot:spring-boot:1.5.6.RELEASE"
+},
+{
+	"project": "Spring Boot AutoConfigure",
+	"description": "Spring Boot AutoConfigure",
+	"version": null,
+	"developers": [],
+	"url": "http://projects.spring.io/spring-boot/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework.boot:spring-boot-autoconfigure:1.5.6.RELEASE"
+},
+{
+	"project": "Spring Boot Logging Starter",
+	"description": "Starter for logging using Logback. Default logging starter",
+	"version": null,
+	"developers": [],
+	"url": "http://projects.spring.io/spring-boot/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework.boot:spring-boot-starter-logging:1.5.6.RELEASE"
+},
+{
+	"project": "Spring Boot Starter",
+	"description": "Core starter, including auto-configuration support, logging and YAML",
+	"version": null,
+	"developers": [],
+	"url": "http://projects.spring.io/spring-boot/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework.boot:spring-boot-starter:1.5.6.RELEASE"
+},
+{
+	"project": "Spring Boot Thymeleaf Starter",
+	"description": "Starter for building MVC web applications using Thymeleaf views",
+	"version": null,
+	"developers": [],
+	"url": "http://projects.spring.io/spring-boot/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework.boot:spring-boot-starter-thymeleaf:1.5.6.RELEASE"
+},
+{
+	"project": "Spring Boot Tomcat Starter",
+	"description": "Starter for using Tomcat as the embedded servlet container. Default\n\t\tservlet container starter used by spring-boot-starter-web",
+	"version": null,
+	"developers": [],
+	"url": "http://projects.spring.io/spring-boot/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework.boot:spring-boot-starter-tomcat:1.5.6.RELEASE"
+},
+{
+	"project": "Spring Boot Web Starter",
+	"description": "Starter for building web, including RESTful, applications using Spring\n\t\tMVC. Uses Tomcat as the default embedded container",
+	"version": null,
+	"developers": [],
+	"url": "http://projects.spring.io/spring-boot/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework.boot:spring-boot-starter-web:1.5.6.RELEASE"
+},
+{
+	"project": "Spring Context",
+	"description": "Spring Context",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-context:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Core",
+	"description": "Spring Core",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-core:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Expression Language (SpEL)",
+	"description": "Spring Expression Language (SpEL)",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-expression:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Integration Core",
+	"description": "Spring Integration Core",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Gary Russell",
+	"Mark Fisher",
+	"Gunnar Hillert",
+	"Artem Bilan"],
+	"url": "https://projects.spring.io/spring-integration",
+	"year": null,
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.springframework.integration:spring-integration-core:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Messaging",
+	"description": "Spring Messaging",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-messaging:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Retry",
+	"description": "Spring Retry provides an abstraction around retrying failed operations, with an emphasis on declarative control of the process and policy-based bahaviour that is easy to extend and customize.  For instance, you can configure a plain POJO operation to retry if it fails, based on the type of exception, and with a fixed or exponential backoff.",
+	"version": "1.2.1.RELEASE",
+	"developers": ["Dave Syer"],
+	"url": "http://www.springsource.org",
+	"year": null,
+	"licenses": [{
+		"license": "Apache 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.springframework.retry:spring-retry:1.2.1.RELEASE"
+},
+{
+	"project": "Spring Transaction",
+	"description": "Spring Transaction",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-tx:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Web",
+	"description": "Spring Web",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-web:4.3.10.RELEASE"
+},
+{
+	"project": "Spring Web MVC",
+	"description": "Spring Web MVC",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-webmvc:4.3.10.RELEASE"
+},
+{
+	"project": "Spring WebSocket",
+	"description": "Spring WebSocket",
+	"version": "4.3.10.RELEASE",
+	"developers": ["Juergen Hoeller"],
+	"url": "https://github.com/spring-projects/spring-framework",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0"
+	}],
+	"dependency": "org.springframework:spring-websocket:4.3.10.RELEASE"
+},
+{
+	"project": "Sprintf-js",
+	"description": "WebJar for sprintf-js",
+	"version": "1.0.3",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "BSD-3-Clause",
+		"license_url": "https://spdx.org/licenses/BSD-3-Clause#licenseText"
+	}],
+	"dependency": "org.webjars.npm:sprintf-js:1.0.3"
+},
+{
+	"project": "Stomp-websocket",
+	"description": "WebJar for stomp-websocket",
+	"version": "2.3.4",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.bower:stomp-websocket:2.3.4"
+},
+{
+	"project": "Stompjs",
+	"description": "WebJar for stompjs",
+	"version": "2.3.3",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "Apache-2.0",
+		"license_url": "https://spdx.org/licenses/Apache-2.0#licenseText"
+	}],
+	"dependency": "org.webjars.npm:stompjs:2.3.3"
+},
+{
+	"project": "Thymeleaf",
+	"description": "XML/XHTML/HTML5 template engine for Java",
+	"version": "2.1.5.RELEASE",
+	"developers": ["Daniel Fernandez",
+	"Jose Miguel Samper",
+	"Emanuel Rabina"],
+	"url": "http://www.thymeleaf.org",
+	"year": null,
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.thymeleaf:thymeleaf:2.1.5.RELEASE"
+},
+{
+	"project": "Thymeleaf Layout Dialect",
+	"description": "A dialect for Thymeleaf that allows you to use layout/decorator templates to style your content.",
+	"version": "1.4.0",
+	"developers": ["Emanuel Rabina"],
+	"url": "http://www.ultraq.net.nz/programming/thymeleaf-layout-dialect/",
+	"year": "2012",
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect:1.4.0"
+},
+{
+	"project": "Thymeleaf-spring4",
+	"description": "XML/XHTML/HTML5 template engine for Java",
+	"version": "2.1.5.RELEASE",
+	"developers": ["Daniel Fernandez",
+	"Jose Miguel Samper",
+	"Emanuel Rabina"],
+	"url": "http://www.thymeleaf.org",
+	"year": null,
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.thymeleaf:thymeleaf-spring4:2.1.5.RELEASE"
+},
+{
+	"project": "Tomcat-embed-core",
+	"description": "Core Tomcat implementation",
+	"version": "8.5.16",
+	"developers": [],
+	"url": "http://tomcat.apache.org/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.apache.tomcat.embed:tomcat-embed-core:8.5.16"
+},
+{
+	"project": "Tomcat-embed-el",
+	"description": "Core Tomcat implementation",
+	"version": "8.5.16",
+	"developers": [],
+	"url": "http://tomcat.apache.org/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.apache.tomcat.embed:tomcat-embed-el:8.5.16"
+},
+{
+	"project": "Tomcat-embed-websocket",
+	"description": "Core Tomcat implementation",
+	"version": "8.5.16",
+	"developers": [],
+	"url": "http://tomcat.apache.org/",
+	"year": null,
+	"licenses": [{
+		"license": "Apache License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.apache.tomcat.embed:tomcat-embed-websocket:8.5.16"
+},
+{
+	"project": "Typedarray-to-buffer",
+	"description": "WebJar for typedarray-to-buffer",
+	"version": "3.1.5",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.npm:typedarray-to-buffer:3.1.5"
+},
+{
+	"project": "Unbescape",
+	"description": "Advanced yet easy-to-use escape/unescape library for Java",
+	"version": "1.1.0.RELEASE",
+	"developers": ["Daniel Fernandez"],
+	"url": "http://www.unbescape.org",
+	"year": null,
+	"licenses": [{
+		"license": "The Apache Software License, Version 2.0",
+		"license_url": "http://www.apache.org/licenses/LICENSE-2.0.txt"
+	}],
+	"dependency": "org.unbescape:unbescape:1.1.0.RELEASE"
+},
+{
+	"project": "Webjars-locator",
+	"description": "WebJar Locator",
+	"version": "0.32-1",
+	"developers": ["James Ward"],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://github.com/webjars/webjars-locator/blob/master/LICENSE.md"
+	}],
+	"dependency": "org.webjars:webjars-locator:0.32-1"
+},
+{
+	"project": "Webjars-locator-core",
+	"description": "WebJar Locator Core functionality",
+	"version": "0.32",
+	"developers": ["James Ward"],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://github.com/webjars/webjars-locator-core/blob/master/LICENSE.md"
+	}],
+	"dependency": "org.webjars:webjars-locator-core:0.32"
+},
+{
+	"project": "Websocket",
+	"description": "WebJar for websocket",
+	"version": "1.0.23",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "Apache-2.0",
+		"license_url": "https://spdx.org/licenses/Apache-2.0#licenseText"
+	}],
+	"dependency": "org.webjars.npm:websocket:1.0.23"
+},
+{
+	"project": "Yaeti",
+	"description": "WebJar for yaeti",
+	"version": "0.0.4",
+	"developers": [""],
+	"url": "http://webjars.org",
+	"year": null,
+	"licenses": [{
+		"license": "MIT",
+		"license_url": "https://spdx.org/licenses/MIT#licenseText"
+	}],
+	"dependency": "org.webjars.npm:yaeti:0.0.4"
+}]
